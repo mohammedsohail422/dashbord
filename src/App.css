@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+.btn-man {
+  font-weight: 600 !important;
+  font-size: 1.3rem !important;
+  /* padding: 0 !important; */
+  height: 49px !important;
+  border-radius: 40px !important;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input-man {
+  border-radius: 40px !important;
+  height: 3em !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input-man1 {
+  border-radius: 40px !important;
+  height: 2.5em !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn-logout {
+  border-radius: 40px !important;
+  font-weight: 600 !important;
 }
-
-.App-link {
-  color: #61dafb;
+.sidebar-man {
+  padding-left: 3em !important;
+  padding-top: 1em !important;
+  padding-bottom: 1em !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sidebar-logout-btn {
+  padding: 0.2em 1.2em !important;
+}
+.avatars {
+  width: 60px !important;
+  height: 60px !important;
+}
+.card-man {
+  border-radius: 30px !important;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.border40 {
+  border-radius: 40px !important;
+  font-weight: 600 !important;
 }
