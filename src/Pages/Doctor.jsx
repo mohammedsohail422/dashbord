@@ -1,11 +1,12 @@
+import React from "react";
 import { Row, Col } from "react-bootstrap";
+import DocBom from "./Components/DocBom";
+import DocTop from "./Components/DocTop";
 
-// import { HomeOutlinedIcon } from "@mui/icons-material/HomeOutlined";
 import SendInvitation from "./Components/SendInvitation";
-// import Offcan from "../com/Offcan";
 import Sidebar from "./Components/Sidebar";
 
-const Home = () => {
+const Doctor = () => {
   return (
     <div className="bg-primary w-full h-full ">
       <Row className="m-0  ">
@@ -17,11 +18,11 @@ const Home = () => {
           lg={9}
           className="   flex justify-center items-center flex-col "
         >
-          <SendInvitation />
+          <DocTop />
         </Col>
       </Row>
     </div>
   );
 };
 
-export default Home;
+export default Doctor;

@@ -2,7 +2,7 @@ import "./App.css";
 import Login from "./Pages/Login";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
-import Doctor from "./Pages/Components/Doctor";
+import Doctor from "./Pages/Doctor";
 
 function App() {
   return (

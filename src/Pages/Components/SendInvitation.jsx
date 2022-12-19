@@ -52,7 +52,7 @@ const SendInvitation = () => {
             />
             <CreateIcon className="absolute right-2 bg-primary rounded-full p-1 text-white" />
           </div>
-          <Button className="bg-primary text-pwhite inline self-end border40 px-4 mt-2">
+          <Button className="bg-primary text-pwhite inline self-end border40 px-3 py-1 text-xs mt-2">
             Send Invitation
           </Button>
         </Form>

@@ -1,4 +1,5 @@
 import "./Table.css";
+import { Button } from "react-bootstrap";
 
 const Tables = () => {
   return (
@@ -21,7 +22,11 @@ const Tables = () => {
         <td>Delhi </td>
         <td>Drnilson89@gmail.com </td>
         <td>+91 9087654321 </td>
-        <td>Button </td>
+        <td>
+          <Button className="bg-primary text-pwhite inline self-end border40 px-4 mt-2">
+            Resend
+          </Button>{" "}
+        </td>
       </tr>
       <tr>
         <td>1. </td>
@@ -31,7 +36,11 @@ const Tables = () => {
         <td>Delhi </td>
         <td>Drnilson89@gmail.com </td>
         <td>+91 9087654321 </td>
-        <td>Button </td>
+        <td>
+          <Button className="bg-primary text-pwhite inline self-end border40 px-4 mt-2">
+            Resend
+          </Button>{" "}
+        </td>
       </tr>
     </table>
   );
