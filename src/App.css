@@ -38,3 +38,17 @@
   border-radius: 40px !important;
   font-weight: 600 !important;
 }
+.offcan {
+  display: none !important;
+}
+@media (max-width: 1024px) {
+  .offcan {
+    display: block !important;
+  }
+  .sidebar-man {
+    display: none;
+  }
+}
+.tab-component {
+  border-radius: 40px !important;
+}
