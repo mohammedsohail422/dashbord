@@ -50,5 +50,12 @@
   }
 }
 .tab-component {
-  border-radius: 40px !important;
+  border-radius: 25px !important;
+  height: 100px !important;
+  overflow: auto;
+}
+
+.forTable {
+  border-spacing: 1vw 1vw !important;
+  border-collapse: separate;
 }

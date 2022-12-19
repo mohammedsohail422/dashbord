@@ -8,7 +8,7 @@ const SendInvitation = () => {
       <h6 className="text-xl">Send Invitation</h6>
       <div className=" md:w-2/4 sm:w-full  p-3 card-man bg-pwhite">
         <Form className="flex flex-col gap-2 ">
-          <div className="flex flex-col md:flex-row  relative items-center">
+          <div className="flex   relative items-center">
             <label htmlFor="" className="w-1/2 font-semibold">
               Doctor Name
             </label>

@@ -1,8 +1,6 @@
 import { Row, Col } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import { Avatar, Button } from "@mui/material";
+
 // import { HomeOutlinedIcon } from "@mui/icons-material/HomeOutlined";
-import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import SendInvitation from "./Components/SendInvitation";
 import Offcan from "../com/Offcan";
 import Sidebar from "./Components/Sidebar";
@@ -11,7 +9,7 @@ const Home = () => {
   return (
     <div className="bg-primary w-full h-full ">
       <Row className="m-0  ">
-        <Offcan />
+        {/* <Offcan /> */}
         <Sidebar />
         <Col
           xs={12}

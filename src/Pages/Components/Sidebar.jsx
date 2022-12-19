@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Avatar, Button } from "@mui/material";
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
+import { Col } from "react-bootstrap";
 
 const Sidebar = () => {
   return (

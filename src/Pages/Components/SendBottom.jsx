@@ -11,7 +11,7 @@ const SendBottom = () => {
           Refresh
         </Button>
       </div>
-      <div className="bg-litePurple tab-component">
+      <div className="bg-litePurple tab-component ">
         <Tables />
       </div>
     </div>
